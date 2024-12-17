@@ -197,7 +197,7 @@ const Signup = () => {
            
        
 
-            <button type="submit">Log In</button>
+            <button type="submit">Sign Up</button>
             {/* <div className="register">
               <p>
                 You have an account? <Link to="/login">Sign in</Link>
