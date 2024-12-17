@@ -37,11 +37,7 @@ function App() {
 
 <Routes>
 
-    
-       
-      
-
-
+     
        <Route   element={<ResponsiveSidebar/>}>
             <Route path="/admin-dashboard" element={<Panel/>} />
             <Route path="/users" element={<Users/>} />
@@ -84,12 +80,6 @@ function App() {
            
           
        </Route>
-
-
-     
-
-
-
 
        
         
