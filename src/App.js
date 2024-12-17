@@ -19,7 +19,7 @@ import EditProfile from './Pages/EditProfile.jsx';
 import Landing from './Pages/Landing.jsx';
 import RecentBlogs from './Pages/RecentBlogs.jsx';
 import OtpInput from './Pages/otpInput.jsx';
-import BlogEdit from './Pages/BlogEdit.jsx';
+
 import UserDashboard from './Pages/UserDashboard.jsx';
 import UserResponsive from './Components/Layout/UserResponsive.jsx';
 import UserSetting from './Pages/UserSetting.jsx';
@@ -71,7 +71,7 @@ function App() {
             <Route  path="/login" element={<Login/>} />
             <Route  path="/signup" element={<Signup/>} />
             <Route path="/otp" element={<OtpInput/>} />
-            <Route path="/create-blog" element={<BlogEdit/>} />
+           
             <Route path="/category/:category" element={<BlogByCategory/>} />
             
             
